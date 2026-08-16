@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: #007bff;
+  --card-bg: #bbb6b6;
+  --text-dark: #212529;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: Arial, sans-serif; 
+  color: var(--text-dark);
+}
+
+header {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav.sticky-top {
+  border-bottom: 2px solid #1a252f; 
+}
+
+.nav-link {
+  color: #ffffff !important; 
+  transition: opacity 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important; 
+  opacity: 1; 
+  transform: translateY(-2px);
+}
+.math-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  background-color: var(--card-bg);
+}
+
+.math-card:hover {
+  transform: translateY(-6px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15) !important; 
+}
+
+table {
+  border: 1px solid #dee2e6;
+}
+
+th {
+  background-color: #f8f9fa;
+  color: var(--primary-color);
+}
