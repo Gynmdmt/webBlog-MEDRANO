@@ -53,3 +53,13 @@ th {
   background-color: #f8f9fa;
   color: var(--primary-color);
 }
+
+.card-link {
+  text-decoration: none; 
+  color: inherit; 
+  display: block;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
